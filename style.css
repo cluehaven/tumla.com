@@ -87,6 +87,149 @@ body {
     margin-bottom: 0;
 }
 
+/* Yearbook Pages Styles */
+.yearbook-page {
+    background-color: #006633; /* INSEAD Green */
+    min-height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+}
+
+.yearbook-content {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    flex: 1;
+}
+
+.yearbook-headline {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.yearbook-text {
+    font-size: 1.4rem;
+    font-weight: 700; /* Bold from screenshots */
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.yearbook-subtext {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.yearbook-links {
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+.yearbook-links li {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-start;
+}
+
+.yearbook-links li::before {
+    content: "•";
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.yearbook-link {
+    color: #FFC72C; /* Brand Yellow/Gold */
+    text-decoration: none;
+}
+
+.yearbook-link:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.contact-link {
+    color: #FFC72C;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.sign-off {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+/* Policy Page Styles */
+.policy-page {
+    background-color: #FFFFFF;
+    color: #333333;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    line-height: 1.6;
+}
+
+.policy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-height: 60vh;
+}
+
+.policy-content h1 {
+    font-size: 2.5rem;
+    color: #FF6B2B; /* Brand Orange */
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.policy-content h2 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.policy-content p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #444;
+}
+
+.policy-content ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.policy-content li {
+    margin-bottom: 5px;
+}
+
+.policy-content a {
+    color: #FF6B2B;
+    text-decoration: none;
+}
+
+.policy-content a:hover {
+    text-decoration: underline;
+}
+
+
 /* Footer Section */
 #footer {
     background-color: #FFFFFF;
@@ -127,6 +270,20 @@ body {
     font-size: 0.8rem;
 }
 
+/* Yearbook Footer Overrides */
+.yearbook-footer {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.yearbook-footer a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .logo-group h1 {
@@ -157,6 +314,25 @@ body {
     
     #hero {
         min-height: 70vh;
+    }
+
+    /* Yearbook Responsive */
+    .yearbook-headline {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .yearbook-text, .yearbook-subtext, .yearbook-links li, .contact-info, .sign-off {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    /* Policy Responsive */
+    .policy-content h1 {
+        font-size: 2rem;
+    }
+    .policy-content h2 {
+        font-size: 1.3rem;
     }
 }
 
@@ -189,5 +365,10 @@ body {
     
     .legal-text {
         font-size: 0.75rem;
+    }
+
+    /* Yearbook Responsive Mobile */
+    .yearbook-headline {
+        font-size: 2rem;
     }
 }
