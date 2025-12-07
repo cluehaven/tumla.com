@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Exclude yearbook pages from Google indexing
+Disallow: /20j/
+Disallow: /21d/
+Disallow: /22j/
+
+Sitemap: https://tumla.com/sitemap.xml
+

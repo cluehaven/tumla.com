@@ -1,0 +1,28 @@
+# Tumla - LLMs.txt
+
+# About Tumla
+Tumla is a student and alum led mobile-first platform connecting MBA communities from pre-admit to alumni. We work with business schools including INSEAD and ISB to create a coherent and innovation supportive ecosystem.
+
+# Website Information
+- Homepage: https://tumla.com
+- Contact: info@tumla.com
+- Feedback: feedback@tumla.com
+
+# Key Pages
+- Privacy Policy: https://tumla.com/privacy-policy/
+- Cookie Policy: https://tumla.com/cookie-policy/
+- Terms and Conditions: https://tumla.com/terms-and-conditions/
+
+# Brand
+- Name: Tumla
+- Tagline: Less Noise, Better Connection
+- Company: Tumla Ltd (UK company)
+
+# Technology
+- Platform: Static HTML/CSS website
+- Hosting: Cloudflare Pages
+- Font: Montserrat (Google Fonts)
+
+# Content
+This website provides information about Tumla's MBA community platform, including legal documentation (privacy policy, cookie policy, terms and conditions) and yearbook pages for specific MBA cohorts.
+
